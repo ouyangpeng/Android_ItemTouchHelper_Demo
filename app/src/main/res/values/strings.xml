@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android_ItemTouchHelper_Demo</string>
+
+    <array name="dummy_items">
+        <item>OYP One</item>
+        <item>OYP Two</item>
+        <item>OYP Three</item>
+        <item>OYP Four</item>
+        <item>OYP Five</item>
+        <item>OYP Six</item>
+        <item>OYP Seven</item>
+        <item>OYP Eight</item>
+        <item>OYP Nine</item>
+        <item>OYP Ten</item>
+    </array>
+</resources>
