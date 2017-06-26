@@ -17,8 +17,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.RecyclerListActivity"/>
-        <activity android:name=".view.RecyclerGridActivity"/>
+        <activity android:name=".view.RecyclerListActivity" />
+        <activity android:name=".view.RecyclerGridActivity" />
+        <activity android:name=".view.ChannelActivity" />
     </application>
 
 </manifest>

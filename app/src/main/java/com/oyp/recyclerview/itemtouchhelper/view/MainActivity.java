@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.oyp.recyclerview.itemtouchhelper.R;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,16 +15,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.tv1).setOnClickListener(this);
         findViewById(R.id.tv2).setOnClickListener(this);
+        findViewById(R.id.tv3).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.tv1:
-                startActivity(new Intent(this,RecyclerListActivity.class));
+                startActivity(new Intent(this, RecyclerListActivity.class));
                 break;
             case R.id.tv2:
-                startActivity(new Intent(this,RecyclerGridActivity.class));
+                startActivity(new Intent(this, RecyclerGridActivity.class));
+                break;
+            case R.id.tv3:
+                startActivity(new Intent(this, ChannelActivity.class));
                 break;
             default:
                 break;

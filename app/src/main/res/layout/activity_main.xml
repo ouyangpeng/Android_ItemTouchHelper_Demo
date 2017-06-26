@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="List - Basic Drag and Swipe"/>
+        android:text="@string/tv1_note"/>
 
     <TextView
         android:id="@+id/tv2"
@@ -20,5 +20,14 @@
         android:layout_below="@id/tv1"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="Grid - Basic Swipe"/>
+        android:text="@string/tv2_note"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/tv3_note"/>
 </RelativeLayout>
