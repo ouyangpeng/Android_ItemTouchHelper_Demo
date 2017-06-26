@@ -19,6 +19,7 @@ package com.oyp.recyclerview.itemtouchhelper.helper;
 import android.graphics.Canvas;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
 /**
@@ -62,7 +63,8 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
          * 但是swipeFlags的话，如果LayoutManager类型是GridLayoutManager，则设置不可swipe，其他类型设置start和end两个方向
          * 最后通过makeMovementFlags（dragFlag，swipe）创建方向的Flag，
          */
-        if (recyclerView.getLayoutManager() instanceof GridLayoutManager) {
+        if (recyclerView.getLayoutManager() instanceof GridLayoutManager
+                || recyclerView.getLayoutManager() instanceof StaggeredGridLayoutManager) {
             final int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN | ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
             final int swipeFlags = 0;
             return makeMovementFlags(dragFlags, swipeFlags);
