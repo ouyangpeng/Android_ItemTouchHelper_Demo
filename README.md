@@ -15,10 +15,20 @@
 运行之后的效果图如下所示：
 
 使用ItemTouchHelper高效地实现 今日头条 、网易新闻 的频道排序、移动 效果图
-![使用ItemTouchHelper高效地实现 今日头条 、网易新闻 的频道排序、移动](https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v3.gif)
+<center>
+<img src="https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v3.gif" width="50%" height="50%" 
+alt="使用ItemTouchHelper高效地实现 今日头条 、网易新闻 的频道排序、移动"/>
+</center>
+
 
 List拖拽和侧滑 效果图
-![List拖拽和侧滑](https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v1.gif)
+<center>
+<img src="https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v1.gif" width="50%" height="50%" 
+alt="List拖拽和侧滑"/>
+</center>
 
 Gride拖拽 效果图
-![Gride拖拽](https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v2.gif)
+<center>
+<img src="https://github.com/ouyangpeng/Android_ItemTouchHelper_Demo/blob/master/ScreenCapture/v2.gif" width="50%" height="50%" 
+alt="Gride拖拽"/>
+</center>
